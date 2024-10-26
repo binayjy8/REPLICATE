@@ -9,6 +9,10 @@ app.set("views", path.join(__dirname, "views"));
 
 app.use(express.static(path.join(__dirname, "public")));
 
+app.get("/posts", (req, res) => {
+    res.send("It's working");
+});
+
 app.listen(port, ()=> {
     console.log("listening to the port: 8080");
 });

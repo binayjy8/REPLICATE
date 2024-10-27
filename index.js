@@ -17,7 +17,7 @@ let posts = [
 ];
 
 app.get("/posts", (req, res) => {
-    res.send("It's working");
+    res.render("It's working");
 });
 
 app.listen(port, ()=> {

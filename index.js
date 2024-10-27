@@ -16,6 +16,7 @@ let posts = [
         content: "This is malkangiri"
     },
     {
+        username: "makhna",
         
     }
 ];

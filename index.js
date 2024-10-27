@@ -17,7 +17,7 @@ let posts = [
 ];
 
 app.get("/posts", (req, res) => {
-    res.render("index.ejs");
+    res.render("index.ejs", {});
 });
 
 app.listen(port, ()=> {

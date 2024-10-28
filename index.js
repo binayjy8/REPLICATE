@@ -21,6 +21,7 @@ let posts = [
     },
     {
         username: "Cool",
+        content: "Alway keep calm"
     }
 ];
 

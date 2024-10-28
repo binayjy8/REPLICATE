@@ -33,7 +33,9 @@ app.get("/posts/new", (req, res) => {
     res.render("new.ejs");
 });
 
-app.post("/posts", (req, res))
+app.post("/posts", (req, res) => {
+    let { username, content } = req.body;
+});
 
 app.listen(port, ()=> {
     console.log("listening to the port: 8080");

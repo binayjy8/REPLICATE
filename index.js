@@ -20,7 +20,7 @@ let posts = [
         content: "What are you doing"
     },
     {
-        
+        username: "Cool",
     }
 ];
 

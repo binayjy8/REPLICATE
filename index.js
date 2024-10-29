@@ -17,6 +17,7 @@ let posts = [
         content: "This is malkangiri"
     },
     {
+        id: "",
         username: "makhna",
         content: "What are you doing"
     },

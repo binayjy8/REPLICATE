@@ -42,7 +42,7 @@ app.post("/posts", (req, res) => {
     res.redirect("/posts");
 });
 
-app.get("/posts");
+app.get("/posts/:id");
 
 app.listen(port, ()=> {
     console.log("listening to the port: 8080");

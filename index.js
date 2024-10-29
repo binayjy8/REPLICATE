@@ -43,7 +43,7 @@ app.post("/posts", (req, res) => {
 });
 
 app.get("/posts/:id", (req, res) => {
-    
+    let
 });
 
 app.listen(port, ()=> {

@@ -45,7 +45,7 @@ app.post("/posts", (req, res) => {
 app.get("/posts/:id", (req, res) => {
     let { id } = req.params;
     res.send("happy deewali enjoy this");
-    res.send("don't give the e");
+    res.send("don't give the ex");
 });
 
 app.listen(port, ()=> {

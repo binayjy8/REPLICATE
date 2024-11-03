@@ -47,7 +47,7 @@ app.get("/posts/:id", (req, res) => {
     res.send("happy deewali enjoy this");
     res.send("don't give the excuse");
     res.send("cherry finish tender");
-    res.send("change yourself self because you s");
+    res.send("change yourself self because you sh");
 });
 
 app.listen(port, ()=> {

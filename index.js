@@ -44,7 +44,7 @@ app.post("/posts", (req, res) => {
 
 app.get("/posts/:id", (req, res) => {
     let { id } = req.params;
-    let post = post.fin
+    let post = post.find
 });
 
 app.listen(port, ()=> {

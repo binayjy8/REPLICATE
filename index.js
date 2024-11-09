@@ -2,6 +2,8 @@ const express = require("express");
 const app = express();
 const port = 8080;
 const path = require("path");
+import { v4 as uuidv4 } from 'uuid';
+uuidv4();
 
 app.use(express.urlencoded({ extended: true }));
 

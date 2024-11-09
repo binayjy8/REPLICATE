@@ -24,7 +24,7 @@ let posts = [
         content: "What are you doing"
     },
     {
-        id: "3c",
+        id: uuidv4(),
         username: "Cool",
         content: "Alway keep calm"
     }

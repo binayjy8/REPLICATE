@@ -3,7 +3,7 @@ const app = express();
 const port = 8080;
 const path = require("path");
 import { v4 as uuidv4 } from "uuid";
-uuidv4();
+
 
 app.use(express.urlencoded({ extended: true }));
 
@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 let posts = [
     {
-        id: "1a",
+        id: uuidv4(),
         username: "malka",
         content: "This is malkangiri"
     },

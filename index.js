@@ -52,7 +52,7 @@ app.get("/posts/:id", (req, res) => {
 });
 
 app.patch("/posts/:id", (req, res) => {
-    res.send
+    res.send();
 });
 
 app.listen(port, ()=> {

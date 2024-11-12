@@ -53,7 +53,7 @@ app.get("/posts/:id", (req, res) => {
 
 app.patch("/posts/:id", (req, res) => {
     let { id } = req.params;
-    res.send("give up the lazyness other wise the univers");
+    res.send("give up the lazyness other wise the universe");
 });
 
 app.listen(port, ()=> {

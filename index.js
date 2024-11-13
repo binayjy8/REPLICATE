@@ -53,7 +53,7 @@ app.get("/posts/:id", (req, res) => {
 
 app.patch("/posts/:id", (req, res) => {
     let { id } = req.params;
-    let newContent = req.body.c
+    let newContent = req.body.co
     res.send("give up the lazyness other wise the universe will no");
 });
 

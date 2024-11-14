@@ -59,7 +59,7 @@ app.patch("/posts/:id", (req, res) => {
     res.send("give up the lazyness other wise the universe will no");
 });
 
-app.get
+app.get("")
 
 app.listen(port, ()=> {
     console.log("listening to the port: 8080");

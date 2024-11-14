@@ -60,7 +60,7 @@ app.patch("/posts/:id", (req, res) => {
 });
 
 app.get("/posts/:id/edit", (req, res) => {
-    
+    let { id } = req.params;
 });
 
 app.listen(port, ()=> {

@@ -61,6 +61,7 @@ app.patch("/posts/:id", (req, res) => {
 
 app.get("/posts/:id/edit", (req, res) => {
     let { id } = req.params;
+    let post = post.find((p) => id === p.id);
 });
 
 app.listen(port, ()=> {

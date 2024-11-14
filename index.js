@@ -47,21 +47,21 @@ app.post("/posts", (req, res) => {
 
 app.get("/posts/:id", (req, res) => {
     let { id } = req.params;
-    let post = post.find((p) => id === p.id);
+    let post = posts.find((p) => id === p.id);
     res.render("show.ejs", { post });
 });
 
 app.patch("/posts/:id", (req, res) => {
     let { id } = req.params;
     let newContent = req.body.content;
-    let post = post.find((p) => id === p.id);
+    let post = posts.find((p) => id === p.id);
     post.content = newContent;
-    res.send("give up the lazyness other wise the universe will no");
+    res.send("post request working");
 });
 
 app.get("/posts/:id/edit", (req, res) => {
     let { id } = req.params;
-    let post = post.find((p) => id === p.id);
+    let post = posts.find((p) => id === p.id);
     res.render("edit.ejs", { post });
 });
 

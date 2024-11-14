@@ -55,7 +55,7 @@ app.patch("/posts/:id", (req, res) => {
     let { id } = req.params;
     let newContent = req.body.content;
     let post = post.find((p) => id === p.id);
-    post
+    post.content 
     res.send("give up the lazyness other wise the universe will no");
 });
 

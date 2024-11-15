@@ -56,7 +56,7 @@ app.patch("/posts/:id", (req, res) => {
     let newContent = req.body.content;
     let post = posts.find((p) => id === p.id);
     post.content = newContent;
-    res.send("post request working nd thsi the");
+    res.send("post request working nd thsi the w");
 });
 
 app.get("/posts/:id/edit", (req, res) => {

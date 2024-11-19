@@ -65,6 +65,8 @@ app.get("/posts/:id/edit", (req, res) => {
     res.render("edit.ejs", { post });
 });
 
+a
+
 app.listen(port, ()=> {
     console.log("listening to the port: 8080");
 });

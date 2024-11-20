@@ -67,7 +67,10 @@ app.get("/posts/:id/edit", (req, res) => {
     res.render("edit.ejs", { post });
 });
 
-app.delete();
+app.delete("/posts/:id", (req, res) => {
+    let { id } = req.params;
+    let post = post.find((p) => id === p.id);
+});
 
 
 app.listen(port, ()=> {

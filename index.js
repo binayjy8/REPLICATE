@@ -58,7 +58,7 @@ app.patch("/posts/:id", (req, res) => {
     let newContent = req.body.content;
     let post = posts.find((p) => id === p.id);
     post.content = newContent;
-    res.re
+    res.red
 });
 
 app.get("/posts/:id/edit", (req, res) => {
